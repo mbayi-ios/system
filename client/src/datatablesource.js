@@ -61,6 +61,60 @@ export const userRows = [
         email: "snow@gmail.com",
         age: 35
 
+    },
+    {
+        id: 1, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "active",
+        email: "snow@gmail.com",
+        age: 35
+
+    },
+    {
+        id: 2, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "passive",
+        email: "snow@gmail.com",
+        age: 35
+
+    },
+    {
+        id: 3, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "pending",
+        email: "snow@gmail.com",
+        age: 35
+
+    },
+    {
+        id: 1, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "active",
+        email: "snow@gmail.com",
+        age: 35
+
+    },
+    {
+        id: 2, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "passive",
+        email: "snow@gmail.com",
+        age: 35
+
+    },
+    {
+        id: 3, 
+        username: "Snow",
+        image: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress",
+        status: "pending",
+        email: "snow@gmail.com",
+        age: 35
+
     }
 
 ]
