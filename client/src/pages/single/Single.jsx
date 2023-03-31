@@ -39,7 +39,7 @@ const Single = () => {
             </div>
           </div>
           <div className="bottom">
-          <h1 className="title">Laterst Transactions</h1>
+          <h1 className="title">Latest Transactions</h1>
           <TableList />
           </div>
       </div>
