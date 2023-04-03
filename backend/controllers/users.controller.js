@@ -10,6 +10,7 @@ const createUser = async (req, res) => {
     const { first_name, last_name, email, password } = req.body 
     const hashedPassword = await hashPassword(password)
     
+    
 
     const user = await userService.createUser({
         first_name, last_name, email, password: hashedPassword
@@ -20,6 +21,8 @@ const createUser = async (req, res) => {
         status: "success",
         user,
     })
+
+    
 }
 
 module.exports = {
