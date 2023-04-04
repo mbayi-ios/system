@@ -8,6 +8,19 @@ CREATE TABLE users(
     password character varying(200) 
 )
 
+CREATE TABLE population(
+    population_id SERIAL PRIMARY KEY,
+    population_name character varying(100) NOT NULL
+    
+)
+
+CREATE TABLE prayercells(
+    prayercell_id SERIAL PRIMARY KEY,
+    prayercell_name character varying(100) NOT NULL
+)
+
+
+
 CREATE TABLE mpesa(
     Order_ID character varying(255) NOT NULL,  
     MerchantRequestID character varying(255) NOT NULL, 
@@ -20,3 +33,4 @@ CREATE TABLE mpesa(
     TransactionDate character varying(255) NOT NULL,
     PRIMARY KEY(Order_ID)
 )
+
