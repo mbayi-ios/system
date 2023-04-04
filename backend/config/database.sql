@@ -9,11 +9,11 @@ CREATE TABLE users(
 )
 
 CREATE TABLE mpesa(
-     Order_ID character varying(255) NOT NULL,  
+    Order_ID character varying(255) NOT NULL,  
     MerchantRequestID character varying(255) NOT NULL, 
     CheckoutRequestID character varying(255) NOT NULL, 
     ResultCode character varying(255) NOT NULL, 
-   ResultDesc character varying(255) NOT NULL, 
+    ResultDesc character varying(255) NOT NULL, 
     PhoneNumber character varying(255) NOT NULL, 
     Amount character varying(255) NOT NULL, 
     MpesaReceiptNumber character varying(255) NOT NULL, 

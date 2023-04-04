@@ -1,4 +1,4 @@
-const { getAllUsersDb, createUserDb } = require("../db/user.db")
+const { getAllUsersDb, createUserDb, deleteUserDb } = require("../db/user.db")
 
 class UserService {
     getAllUsers = async () => {
@@ -14,6 +14,15 @@ class UserService {
             return await createUserDb(user);
 
         } catch (error){
+            console.error(error.message)
+        }
+    }
+
+    deleteUser = async(id) => {
+        try {
+            return await deleteUserDb(id) 
+
+        } catch(error) {
             console.error(error.message)
         }
     }
